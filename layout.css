@@ -1,0 +1,66 @@
+
+
+  header {
+    text-align :center;
+    color: black;
+    font-style:italic;
+    padding: 10px;
+    background-color:white;
+    padding:20px;
+    margin-bottom:20px;
+  }
+  .bar ul {
+     list-style-type : none;
+     margin: 0;
+     padding: 0;
+     background-color: #333;
+     position: relative;
+ }
+ ul:after{
+     content :'';
+     display: block;
+     clear:both;
+ }
+ .bar li {
+     float : left;
+ }
+ .bar li a {
+     display : block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+ .bar li a:hover:not(.active) {
+     background-color: #111;
+ }
+ .active {
+     background-color: #4CAF50;
+ }
+ p {
+   font-size : 40px;
+   margin:20px;
+   margin-top: 0;
+      }
+ body {
+    background-color :white;
+        }
+ div {
+   font-family: 돋움;
+    border: 1px solid #ccc;
+    padding:20px;
+    margin: 20px;
+    margin-top: 0;
+    width:960px;
+        }
+  #contents{
+    width: 700px;
+    float: left;
+  }
+  #sidebar{
+    width: 220px;
+    float: right;
+  }
+  #sidebar ul{
+    padding-left:18px;
+  }
